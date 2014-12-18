@@ -1,0 +1,151 @@
+/* 
+    Document   : custom
+    Created on : Dec 17, 2014, 12:51:26 AM
+    Author     : Jake
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* Front page formatting */
+body {
+    font-family: 'Oswald', sans-serif;
+    background-color: #395c6f;
+    color: #fff;
+}
+
+a {
+    color: aqua;
+    text-decoration: none;
+}
+
+.heading {
+    text-align: center;
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.heading h1 {
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+
+.heading p {
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar {
+    position: relative;
+    text-align: center;
+    width: 70%;
+    left: 15%;
+}
+
+.nav-button {
+    display: inline-block;
+    margin: 1%;
+    width: 30%;
+    border-top: 1px solid white;
+    border-right: 1px solid white;
+    
+    transition: color 0.5s, background-color 0.5s;
+}
+
+.nav-button:hover {
+    cursor: pointer;
+    background-color: #fff; 
+    color: #395c6f;
+}
+
+.nav-button p {
+    font-weight: 300;
+    display: inline;
+}
+
+.content {
+    position: relative;
+    left: 14.5%;
+    width: 70%;
+}
+
+.content h1{
+    position: relative;
+    text-align: center;
+    font-weight: 400;
+}
+
+/* Info formatting */
+
+.description {
+    position: relative;
+    width: 95%;
+    left: 3%;
+    font-weight: 300;
+    font-size: 24px;
+    border-right: 1px solid white;
+    border-top: 1px solid white;
+}
+
+.description p{
+    padding-right: 10px;
+}
+
+.info-links p{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    margin: 1%;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+/* Screenshot formatting */
+.images {
+    text-align: center;
+}
+
+#PVEmovie {
+    position: relative;
+    width: 95%;
+    left: 0.6%;
+}
+
+/* Media transformations for browser scalability */
+
+@media screen and (max-width: 600px) {
+    .heading {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 405px) {
+    .heading {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 275px) {
+    .nav-button {
+        display: block;
+        width: 98%;
+        left: 1%;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .nav-bar {
+        left: 1%;
+        width: 98%;
+    }
+    
+    .content {
+        width: 98%;
+        left: 1%;
+    }
+    
+    .description {
+        font-size: 16px;
+    }
+}
