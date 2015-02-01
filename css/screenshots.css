@@ -1,0 +1,45 @@
+/* 
+    Document   : screenshots
+    Created on : Dec 24, 2014, 1:34:02 AM
+    Author     : Jake
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* Screenshot formatting */
+.images {
+    text-align: center;
+}
+
+#PVEmovie {
+    position: relative;
+    width: 95%;
+    left: 0.6%;
+}
+
+.thumbnails {
+    position: relative;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.thumbnail {
+    position: relative;
+    display: inline-block;
+    width: 48%;
+    left: 0%;
+    outline: : none;
+    transition: border 1s;
+}
+
+.thumbnail img {
+    width: 98%;
+    margin: 1%;
+}
+
+.thumbnail:hover {
+    cursor: pointer;
+    outline: 1px solid white;
+}
+

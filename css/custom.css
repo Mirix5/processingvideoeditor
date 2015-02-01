@@ -101,17 +101,6 @@ a {
     font-size: 20px;
 }
 
-/* Screenshot formatting */
-.images {
-    text-align: center;
-}
-
-#PVEmovie {
-    position: relative;
-    width: 95%;
-    left: 0.6%;
-}
-
 /* Media transformations for browser scalability */
 
 @media screen and (max-width: 600px) {
